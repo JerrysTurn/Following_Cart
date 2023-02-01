@@ -1,0 +1,6 @@
+Invoking command in '/home/kih/sweep-sdk-master/build/sweep': /usr/bin/cmake /home/kih/sweep-sdk-master/libsweep -DCMAKE_INSTALL_PREFIX=/home/kih/sweep-sdk-master/install/sweep
+Invoked command in '/home/kih/sweep-sdk-master/build/sweep' returned '0': /usr/bin/cmake /home/kih/sweep-sdk-master/libsweep -DCMAKE_INSTALL_PREFIX=/home/kih/sweep-sdk-master/install/sweep
+Invoking command in '/home/kih/sweep-sdk-master/build/sweep': /usr/bin/cmake --build /home/kih/sweep-sdk-master/build/sweep -- -j8 -l8
+Invoked command in '/home/kih/sweep-sdk-master/build/sweep' returned '0': /usr/bin/cmake --build /home/kih/sweep-sdk-master/build/sweep -- -j8 -l8
+Invoking command in '/home/kih/sweep-sdk-master/build/sweep': /usr/bin/cmake --install /home/kih/sweep-sdk-master/build/sweep
+Invoked command in '/home/kih/sweep-sdk-master/build/sweep' returned '0': /usr/bin/cmake --install /home/kih/sweep-sdk-master/build/sweep

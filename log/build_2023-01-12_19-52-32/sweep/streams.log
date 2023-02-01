@@ -1,0 +1,54 @@
+[0.045s] Invoking command in '/home/kih/sweep-sdk-master/build/sweep': /usr/bin/cmake /home/kih/sweep-sdk-master/libsweep -DCMAKE_INSTALL_PREFIX=/home/kih/sweep-sdk-master/install/sweep
+[0.401s] -- The C compiler identification is GNU 9.4.0
+[0.402s] -- The CXX compiler identification is GNU 9.4.0
+[0.402s] -- Check for working C compiler: /usr/bin/cc
+[0.403s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.403s] -- Detecting C compiler ABI info
+[0.436s] -- Detecting C compiler ABI info - done
+[0.451s] -- Detecting C compile features
+[0.452s] -- Detecting C compile features - done
+[0.456s] -- Check for working CXX compiler: /usr/bin/c++
+[0.536s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.537s] -- Detecting CXX compiler ABI info
+[0.617s] -- Detecting CXX compiler ABI info - done
+[0.632s] -- Detecting CXX compile features
+[0.633s] -- Detecting CXX compile features - done
+[0.636s] -- Looking for pthread.h
+[0.712s] -- Looking for pthread.h - found
+[0.713s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.786s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.786s] -- Looking for pthread_create in pthreads
+[0.845s] -- Looking for pthread_create in pthreads - not found
+[0.846s] -- Looking for pthread_create in pthread
+[0.916s] -- Looking for pthread_create in pthread - found
+[0.917s] -- Found Threads: TRUE  
+[0.921s] -- Configuring done
+[0.925s] -- Generating done
+[0.926s] -- Build files have been written to: /home/kih/sweep-sdk-master/build/sweep
+[0.929s] Invoked command in '/home/kih/sweep-sdk-master/build/sweep' returned '0': /usr/bin/cmake /home/kih/sweep-sdk-master/libsweep -DCMAKE_INSTALL_PREFIX=/home/kih/sweep-sdk-master/install/sweep
+[0.933s] Invoking command in '/home/kih/sweep-sdk-master/build/sweep': /usr/bin/cmake --build /home/kih/sweep-sdk-master/build/sweep -- -j8 -l8
+[0.970s] [35m[1mScanning dependencies of target sweep[0m
+[0.983s] [ 50%] [32mBuilding CXX object CMakeFiles/sweep.dir/src/sweep.cc.o[0m
+[0.983s] [ 50%] [32mBuilding CXX object CMakeFiles/sweep.dir/src/protocol.cc.o[0m
+[0.983s] [ 50%] [32mBuilding CXX object CMakeFiles/sweep.dir/src/unix/serial.cc.o[0m
+[1.594s] [ 66%] [32m[1mLinking CXX shared library libsweep.so[0m
+[1.693s] [ 66%] Built target sweep
+[1.703s] [35m[1mScanning dependencies of target sweep-ctl[0m
+[1.715s] [ 83%] [32mBuilding CXX object CMakeFiles/sweep-ctl.dir/src/sweep-ctl.cc.o[0m
+[2.035s] [100%] [32m[1mLinking CXX executable sweep-ctl[0m
+[2.119s] [100%] Built target sweep-ctl
+[2.131s] Invoked command in '/home/kih/sweep-sdk-master/build/sweep' returned '0': /usr/bin/cmake --build /home/kih/sweep-sdk-master/build/sweep -- -j8 -l8
+[2.169s] Invoking command in '/home/kih/sweep-sdk-master/build/sweep': /usr/bin/cmake --install /home/kih/sweep-sdk-master/build/sweep
+[2.179s] -- Install configuration: ""
+[2.180s] -- Installing: /home/kih/sweep-sdk-master/install/sweep/lib/libsweep.so.1.3.0
+[2.180s] -- Installing: /home/kih/sweep-sdk-master/install/sweep/lib/libsweep.so.1
+[2.180s] -- Installing: /home/kih/sweep-sdk-master/install/sweep/lib/libsweep.so
+[2.180s] -- Installing: /home/kih/sweep-sdk-master/install/sweep/include/sweep
+[2.180s] -- Installing: /home/kih/sweep-sdk-master/install/sweep/include/sweep/sweep.h
+[2.180s] -- Installing: /home/kih/sweep-sdk-master/install/sweep/include/sweep/sweep.hpp
+[2.180s] -- Installing: /home/kih/sweep-sdk-master/install/sweep/include/sweep/config.h
+[2.181s] -- Installing: /home/kih/sweep-sdk-master/install/sweep/bin/sweep-ctl
+[2.181s] -- Set runtime path of "/home/kih/sweep-sdk-master/install/sweep/bin/sweep-ctl" to ""
+[2.181s] -- Installing: /home/kih/sweep-sdk-master/install/sweep/share/man/man1/sweep-ctl.1
+[2.181s] -- Installing: /home/kih/sweep-sdk-master/install/sweep/lib/cmake/sweep/SweepConfig.cmake
+[2.189s] Invoked command in '/home/kih/sweep-sdk-master/build/sweep' returned '0': /usr/bin/cmake --install /home/kih/sweep-sdk-master/build/sweep

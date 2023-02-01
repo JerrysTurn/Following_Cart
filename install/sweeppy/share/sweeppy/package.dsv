@@ -1,0 +1,3 @@
+source;share/sweeppy/hook/pythonpath.ps1
+source;share/sweeppy/hook/pythonpath.dsv
+source;share/sweeppy/hook/pythonpath.sh

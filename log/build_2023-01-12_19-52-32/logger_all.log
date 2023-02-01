@@ -1,0 +1,451 @@
+[0.379s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.379s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2242abca60>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2242abca60>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2242a0fd90>)
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.435s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kih/sweep-sdk-master'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ros'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['cmake', 'python']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'cmake'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['python_setup_py']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep) by extension 'python_setup_py'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extensions ['cmake', 'python']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extensions ['python_setup_py']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extension 'ros'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extensions ['cmake', 'python']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extension 'cmake'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extensions ['python_setup_py']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/gradle/wrapper) by extension 'python_setup_py'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extension 'ros'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extensions ['cmake', 'python']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extensions ['python_setup_py']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extensions ['cmake', 'python']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main) by extension 'python_setup_py'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extension 'ros'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extensions ['cmake', 'python']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extension 'cmake'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extension 'python'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extensions ['python_setup_py']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java) by extension 'python_setup_py'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extensions ['cmake', 'python']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extension 'cmake'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extension 'python'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extensions ['python_setup_py']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io) by extension 'python_setup_py'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extension 'ros'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extensions ['cmake', 'python']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extension 'cmake'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extension 'python'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extensions ['python_setup_py']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse) by extension 'python_setup_py'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extension 'ros'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extensions ['cmake', 'python']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extension 'cmake'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extension 'python'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extensions ['python_setup_py']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep) by extension 'python_setup_py'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extension 'ros'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extensions ['cmake', 'python']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extension 'cmake'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extension 'python'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extensions ['python_setup_py']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/main/java/io/scanse/sweep/jna) by extension 'python_setup_py'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extension 'cmake'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extensions ['ros']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extension 'ros'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extensions ['cmake', 'python']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extension 'cmake'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extension 'python'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extensions ['python_setup_py']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java) by extension 'python_setup_py'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extension 'ignore_ament_install'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extensions ['colcon_meta']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extension 'ros'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extensions ['cmake', 'python']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extension 'cmake'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extension 'python'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extensions ['python_setup_py']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io) by extension 'python_setup_py'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extension 'ros'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extensions ['cmake', 'python']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extension 'cmake'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extension 'python'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extensions ['python_setup_py']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse) by extension 'python_setup_py'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extension 'ros'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extensions ['cmake', 'python']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extension 'cmake'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extension 'python'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extensions ['python_setup_py']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(jsweep/src/test/java/io/scanse/sweep) by extension 'python_setup_py'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(libsweep) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(libsweep) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(libsweep) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(libsweep) by extensions ['colcon_pkg']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(libsweep) by extension 'colcon_pkg'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(libsweep) by extensions ['colcon_meta']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(libsweep) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(libsweep) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(libsweep) by extension 'ros'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(libsweep) by extensions ['cmake', 'python']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(libsweep) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(libsweep) by extension 'python'
+[0.512s] DEBUG:colcon.colcon_core.package_identification:Package 'libsweep' with type 'cmake' and name 'sweep'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extension 'ros'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extensions ['cmake', 'python']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extension 'cmake'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extension 'python'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extensions ['python_setup_py']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs) by extension 'python_setup_py'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extension 'ros'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extensions ['cmake', 'python']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extension 'cmake'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extension 'python'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extensions ['python_setup_py']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples) by extension 'python_setup_py'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extension 'ros'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extensions ['cmake', 'python']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extension 'cmake'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extension 'python'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extensions ['python_setup_py']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweepjs/examples/websocket) by extension 'python_setup_py'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extension 'colcon_meta'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extensions ['ros']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extension 'ros'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extensions ['cmake', 'python']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extension 'cmake'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extension 'python'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extensions ['python_setup_py']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(sweeppy) by extension 'python_setup_py'
+[0.840s] DEBUG:colcon.colcon_core.package_identification:Package 'sweeppy' with type 'python' and name 'sweeppy'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extensions ['ignore', 'ignore_ament_install']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extension 'ignore'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extension 'ignore_ament_install'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extensions ['colcon_pkg']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extension 'colcon_pkg'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extensions ['colcon_meta']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extension 'colcon_meta'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extensions ['ros']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extension 'ros'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extensions ['cmake', 'python']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extension 'cmake'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extension 'python'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extensions ['python_setup_py']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(travis) by extension 'python_setup_py'
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sweep' build argument 'cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sweep' build argument 'cmake_target' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sweep' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sweep' build argument 'cmake_clean_cache' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sweep' build argument 'cmake_clean_first' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sweep' build argument 'cmake_force_configure' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sweep' build argument 'ament_cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sweep' build argument 'catkin_cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sweep' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.876s] DEBUG:colcon.colcon_core.verb:Building package 'sweep' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kih/sweep-sdk-master/build/sweep', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kih/sweep-sdk-master/install/sweep', 'merge_install': False, 'path': '/home/kih/sweep-sdk-master/libsweep', 'symlink_install': False, 'test_result_base': None}
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'sweeppy' build argument 'cmake_args' from command line to 'None'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'sweeppy' build argument 'cmake_target' from command line to 'None'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'sweeppy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'sweeppy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'sweeppy' build argument 'cmake_clean_first' from command line to 'False'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'sweeppy' build argument 'cmake_force_configure' from command line to 'False'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'sweeppy' build argument 'ament_cmake_args' from command line to 'None'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'sweeppy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'sweeppy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.878s] DEBUG:colcon.colcon_core.verb:Building package 'sweeppy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kih/sweep-sdk-master/build/sweeppy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kih/sweep-sdk-master/install/sweeppy', 'merge_install': False, 'path': '/home/kih/sweep-sdk-master/sweeppy', 'symlink_install': False, 'test_result_base': None}
+[0.880s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.887s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.888s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kih/sweep-sdk-master/libsweep'
+[0.894s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.894s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.894s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.923s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kih/sweep-sdk-master/sweeppy'
+[0.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kih/sweep-sdk-master/build/sweep': /usr/bin/cmake /home/kih/sweep-sdk-master/libsweep -DCMAKE_INSTALL_PREFIX=/home/kih/sweep-sdk-master/install/sweep
+[1.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kih/sweep-sdk-master/build/sweep' returned '0': /usr/bin/cmake /home/kih/sweep-sdk-master/libsweep -DCMAKE_INSTALL_PREFIX=/home/kih/sweep-sdk-master/install/sweep
+[1.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kih/sweep-sdk-master/build/sweep': /usr/bin/cmake --build /home/kih/sweep-sdk-master/build/sweep -- -j8 -l8
+[1.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kih/sweep-sdk-master/sweeppy': PYTHONPATH=/home/kih/sweep-sdk-master/build/sweeppy/prefix_override:/home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/sweeppy build --build-base /home/kih/sweep-sdk-master/build/sweeppy/build install --record /home/kih/sweep-sdk-master/build/sweeppy/install.log --single-version-externally-managed
+[2.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kih/sweep-sdk-master/sweeppy' returned '0': PYTHONPATH=/home/kih/sweep-sdk-master/build/sweeppy/prefix_override:/home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/sweeppy build --build-base /home/kih/sweep-sdk-master/build/sweeppy/build install --record /home/kih/sweep-sdk-master/build/sweeppy/install.log --single-version-externally-managed
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweeppy' for CMake module files
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweeppy' for CMake config files
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweeppy/lib'
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweeppy/bin'
+[2.487s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweeppy/lib/pkgconfig/sweeppy.pc'
+[2.487s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages'
+[2.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('sweeppy', 'pythonpath')
+[2.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kih/sweep-sdk-master/install/sweeppy/share/sweeppy/hook/pythonpath.ps1'
+[2.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kih/sweep-sdk-master/install/sweeppy/share/sweeppy/hook/pythonpath.dsv'
+[2.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kih/sweep-sdk-master/install/sweeppy/share/sweeppy/hook/pythonpath.sh'
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweeppy/bin'
+[2.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sweeppy)
+[2.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/kih/sweep-sdk-master/install/sweeppy/share/sweeppy/package.ps1'
+[2.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kih/sweep-sdk-master/install/sweeppy/share/sweeppy/package.dsv'
+[2.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/kih/sweep-sdk-master/install/sweeppy/share/sweeppy/package.sh'
+[2.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/kih/sweep-sdk-master/install/sweeppy/share/sweeppy/package.bash'
+[2.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/kih/sweep-sdk-master/install/sweeppy/share/sweeppy/package.zsh'
+[2.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kih/sweep-sdk-master/install/sweeppy/share/colcon-core/packages/sweeppy)
+[3.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kih/sweep-sdk-master/build/sweep' returned '0': /usr/bin/cmake --build /home/kih/sweep-sdk-master/build/sweep -- -j8 -l8
+[3.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kih/sweep-sdk-master/build/sweep': /usr/bin/cmake --install /home/kih/sweep-sdk-master/build/sweep
+[3.073s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sweep)
+[3.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kih/sweep-sdk-master/build/sweep' returned '0': /usr/bin/cmake --install /home/kih/sweep-sdk-master/build/sweep
+[3.079s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweep' for CMake module files
+[3.079s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweep' for CMake config files
+[3.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('sweep', 'cmake_prefix_path')
+[3.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kih/sweep-sdk-master/install/sweep/share/sweep/hook/cmake_prefix_path.ps1'
+[3.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kih/sweep-sdk-master/install/sweep/share/sweep/hook/cmake_prefix_path.dsv'
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kih/sweep-sdk-master/install/sweep/share/sweep/hook/cmake_prefix_path.sh'
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweep/lib'
+[3.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('sweep', 'ld_library_path_lib')
+[3.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kih/sweep-sdk-master/install/sweep/share/sweep/hook/ld_library_path_lib.ps1'
+[3.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kih/sweep-sdk-master/install/sweep/share/sweep/hook/ld_library_path_lib.dsv'
+[3.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kih/sweep-sdk-master/install/sweep/share/sweep/hook/ld_library_path_lib.sh'
+[3.088s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweep/bin'
+[3.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('sweep', 'path')
+[3.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kih/sweep-sdk-master/install/sweep/share/sweep/hook/path.ps1'
+[3.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kih/sweep-sdk-master/install/sweep/share/sweep/hook/path.dsv'
+[3.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kih/sweep-sdk-master/install/sweep/share/sweep/hook/path.sh'
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweep/lib/pkgconfig/sweep.pc'
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweep/lib/python3.8/site-packages'
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/kih/sweep-sdk-master/install/sweep/bin'
+[3.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('sweep', 'pythonscriptspath')
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kih/sweep-sdk-master/install/sweep/share/sweep/hook/pythonscriptspath.ps1'
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kih/sweep-sdk-master/install/sweep/share/sweep/hook/pythonscriptspath.dsv'
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kih/sweep-sdk-master/install/sweep/share/sweep/hook/pythonscriptspath.sh'
+[3.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/kih/sweep-sdk-master/install/sweep/share/sweep/package.ps1'
+[3.102s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kih/sweep-sdk-master/install/sweep/share/sweep/package.dsv'
+[3.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/kih/sweep-sdk-master/install/sweep/share/sweep/package.sh'
+[3.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/kih/sweep-sdk-master/install/sweep/share/sweep/package.bash'
+[3.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/kih/sweep-sdk-master/install/sweep/share/sweep/package.zsh'
+[3.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kih/sweep-sdk-master/install/sweep/share/colcon-core/packages/sweep)
+[3.104s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.104s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.104s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.104s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.110s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.110s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.110s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.125s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.129s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kih/sweep-sdk-master/install/local_setup.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kih/sweep-sdk-master/install/_local_setup_util_ps1.py'
+[3.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kih/sweep-sdk-master/install/setup.ps1'
+[3.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kih/sweep-sdk-master/install/local_setup.sh'
+[3.133s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kih/sweep-sdk-master/install/_local_setup_util_sh.py'
+[3.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kih/sweep-sdk-master/install/setup.sh'
+[3.135s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kih/sweep-sdk-master/install/local_setup.bash'
+[3.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kih/sweep-sdk-master/install/setup.bash'
+[3.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kih/sweep-sdk-master/install/local_setup.zsh'
+[3.137s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kih/sweep-sdk-master/install/setup.zsh'

@@ -1,0 +1,39 @@
+[1.012s] Invoking command in '/home/kih/sweep-sdk-master/sweeppy': PYTHONPATH=/home/kih/sweep-sdk-master/build/sweeppy/prefix_override:/home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/sweeppy build --build-base /home/kih/sweep-sdk-master/build/sweeppy/build install --record /home/kih/sweep-sdk-master/build/sweeppy/install.log --single-version-externally-managed
+[1.371s] running egg_info
+[1.371s] creating ../build/sweeppy/sweeppy.egg-info
+[1.383s] writing ../build/sweeppy/sweeppy.egg-info/PKG-INFO
+[1.384s] writing dependency_links to ../build/sweeppy/sweeppy.egg-info/dependency_links.txt
+[1.384s] writing top-level names to ../build/sweeppy/sweeppy.egg-info/top_level.txt
+[1.385s] writing manifest file '../build/sweeppy/sweeppy.egg-info/SOURCES.txt'
+[1.411s] reading manifest file '../build/sweeppy/sweeppy.egg-info/SOURCES.txt'
+[1.411s] writing manifest file '../build/sweeppy/sweeppy.egg-info/SOURCES.txt'
+[1.411s] running build
+[1.412s] running build_py
+[1.412s] creating /home/kih/sweep-sdk-master/build/sweeppy/build
+[1.412s] creating /home/kih/sweep-sdk-master/build/sweeppy/build/lib
+[1.412s] creating /home/kih/sweep-sdk-master/build/sweeppy/build/lib/sweeppy
+[1.412s] copying sweeppy/test2.py -> /home/kih/sweep-sdk-master/build/sweeppy/build/lib/sweeppy
+[1.412s] copying sweeppy/__init__.py -> /home/kih/sweep-sdk-master/build/sweeppy/build/lib/sweeppy
+[1.412s] copying sweeppy/app.py -> /home/kih/sweep-sdk-master/build/sweeppy/build/lib/sweeppy
+[1.413s] copying sweeppy/test.py -> /home/kih/sweep-sdk-master/build/sweeppy/build/lib/sweeppy
+[1.413s] copying sweeppy/__main__.py -> /home/kih/sweep-sdk-master/build/sweeppy/build/lib/sweeppy
+[1.413s] running install
+[1.413s] /home/kih/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.413s]   warnings.warn(
+[1.418s] running install_lib
+[1.431s] creating /home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages/sweeppy
+[1.432s] copying /home/kih/sweep-sdk-master/build/sweeppy/build/lib/sweeppy/test2.py -> /home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages/sweeppy
+[1.432s] copying /home/kih/sweep-sdk-master/build/sweeppy/build/lib/sweeppy/__init__.py -> /home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages/sweeppy
+[1.432s] copying /home/kih/sweep-sdk-master/build/sweeppy/build/lib/sweeppy/app.py -> /home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages/sweeppy
+[1.432s] copying /home/kih/sweep-sdk-master/build/sweeppy/build/lib/sweeppy/test.py -> /home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages/sweeppy
+[1.432s] copying /home/kih/sweep-sdk-master/build/sweeppy/build/lib/sweeppy/__main__.py -> /home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages/sweeppy
+[1.433s] byte-compiling /home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages/sweeppy/test2.py to test2.cpython-38.pyc
+[1.433s] byte-compiling /home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages/sweeppy/__init__.py to __init__.cpython-38.pyc
+[1.434s] byte-compiling /home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages/sweeppy/app.py to app.cpython-38.pyc
+[1.435s] byte-compiling /home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages/sweeppy/test.py to test.cpython-38.pyc
+[1.435s] byte-compiling /home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages/sweeppy/__main__.py to __main__.cpython-38.pyc
+[1.435s] running install_egg_info
+[1.449s] Copying ../build/sweeppy/sweeppy.egg-info to /home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages/sweeppy-1.3.0-py3.8.egg-info
+[1.449s] running install_scripts
+[1.501s] writing list of installed files to '/home/kih/sweep-sdk-master/build/sweeppy/install.log'
+[1.545s] Invoked command in '/home/kih/sweep-sdk-master/sweeppy' returned '0': PYTHONPATH=/home/kih/sweep-sdk-master/build/sweeppy/prefix_override:/home/kih/sweep-sdk-master/install/sweeppy/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/sweeppy build --build-base /home/kih/sweep-sdk-master/build/sweeppy/build install --record /home/kih/sweep-sdk-master/build/sweeppy/install.log --single-version-externally-managed

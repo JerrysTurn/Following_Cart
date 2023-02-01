@@ -1,0 +1,9 @@
+/home/kih/sweep-sdk-master/build/sweep/CMakeFiles/install/strip.dir
+/home/kih/sweep-sdk-master/build/sweep/CMakeFiles/install.dir
+/home/kih/sweep-sdk-master/build/sweep/CMakeFiles/list_install_components.dir
+/home/kih/sweep-sdk-master/build/sweep/CMakeFiles/rebuild_cache.dir
+/home/kih/sweep-sdk-master/build/sweep/CMakeFiles/edit_cache.dir
+/home/kih/sweep-sdk-master/build/sweep/CMakeFiles/uninstall.dir
+/home/kih/sweep-sdk-master/build/sweep/CMakeFiles/install/local.dir
+/home/kih/sweep-sdk-master/build/sweep/CMakeFiles/sweep-ctl.dir
+/home/kih/sweep-sdk-master/build/sweep/CMakeFiles/sweep.dir

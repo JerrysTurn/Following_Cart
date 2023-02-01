@@ -1,0 +1,11 @@
+README.md
+setup.py
+../build/sweeppy/sweeppy.egg-info/PKG-INFO
+../build/sweeppy/sweeppy.egg-info/SOURCES.txt
+../build/sweeppy/sweeppy.egg-info/dependency_links.txt
+../build/sweeppy/sweeppy.egg-info/top_level.txt
+sweeppy/__init__.py
+sweeppy/__main__.py
+sweeppy/app.py
+sweeppy/test.py
+sweeppy/test2.py

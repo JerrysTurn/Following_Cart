@@ -1,0 +1,9 @@
+/home/kih/sweep-sdk-master/install/sweep/lib/libsweep.so.1.3.0
+/home/kih/sweep-sdk-master/install/sweep/lib/libsweep.so.1
+/home/kih/sweep-sdk-master/install/sweep/lib/libsweep.so
+/home/kih/sweep-sdk-master/install/sweep/include/sweep/sweep.h
+/home/kih/sweep-sdk-master/install/sweep/include/sweep/sweep.hpp
+/home/kih/sweep-sdk-master/install/sweep/include/sweep/config.h
+/home/kih/sweep-sdk-master/install/sweep/bin/sweep-ctl
+/home/kih/sweep-sdk-master/install/sweep/share/man/man1/sweep-ctl.1
+/home/kih/sweep-sdk-master/install/sweep/lib/cmake/sweep/SweepConfig.cmake

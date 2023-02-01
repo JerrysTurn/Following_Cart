@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -Wall -Wextra -pedantic -fvisibility=hidden -fPIC -fno-rtti  -shared -Wl,-soname,libsweep.so.1 -o libsweep.so.1.3.0 CMakeFiles/sweep.dir/src/unix/serial.cc.o CMakeFiles/sweep.dir/src/sweep.cc.o CMakeFiles/sweep.dir/src/protocol.cc.o  -lpthread 
